@@ -1,0 +1,47 @@
+/* kommentar för */
+/* ta bort extra utrymme i body*/
+body{
+    margin:0;
+
+}
+ /* footer i bottom, always*/
+ main{
+    flex: 1;
+
+ }
+
+ body{
+    display: flex;
+    main-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana;
+ }
+ /* Footer i bottom end*/
+ .my-class{
+    color:red;
+
+ }
+ .two-classes{
+    color: blueviolet;
+
+ }
+ header{
+    background-color: blue;
+    padding: 20px;
+ }
+ header h1{
+     font-family: Verdana;
+     font-size: 45px;
+     margin: 0;
+     margin left: 10px ;
+ }
+ header nav {
+    margin-top: 2px;
+ }
+ header nav a {
+    display: inline-block;
+    padding: 0 15px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+ }
